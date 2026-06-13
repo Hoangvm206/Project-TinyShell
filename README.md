@@ -36,43 +36,6 @@ Project-TinyShell/
 
 ---
 
-## 🛠️ Hướng dẫn Cài đặt và Biên dịch (Build bằng CMake)
-
-Yêu cầu hệ thống đã cài đặt sẵn **CMake** và một trình biên dịch C++ (như MinGW g++ hoặc MSVC) trên Windows.
-
-### 🔹 Bước 1: Tạo bản sao của dự án trên máy tính của bạn
-Mở Terminal (CMD/PowerShell) và clone project về máy:
-```bash
-git clone [https://github.com/Hoangvm206/Project-TinyShell.git](https://github.com/Hoangvm206/Project-TinyShell.git)
-cd Project-TinyShell
-```
-
-### 🔹 Bước 2: Tạo folder `build` cho CMake và chuyển đến thư mục này
-Để tránh làm bẩn thư mục gốc chứa code, toàn bộ file rác khi biên dịch sẽ nằm trong thư mục `build`:
-```bash
-mkdir build
-cd build
-```
-
-### 🔹 Bước 3: Sử dụng CMake để tạo file Makefile hoặc Visual Studio project
-Khởi tạo cấu hình hệ thống build:
-```bash
-cmake ..
-```
-
-### 🔹 Bước 4: Biên dịch mã nguồn bằng trình biên dịch C++
-Tiến hành biên dịch và gom toàn bộ sản phẩm (`Tinyshell.exe` cùng các file test `apps/`) vào thư mục đầu ra `install`:
-```bash
-cmake --build . --target install --config Debug
-```
-
-### 🔹 Bước 5: Chạy chương trình TinyShell
-Di chuyển vào thư mục `install` vừa được sinh ra . Nhập lệnh `help` đầu tiên để xem danh sách lệnh hỗ trợ:
-```bash
-cd install
-Operating-System-Project.exe
-```
-
 ---
 
 ## 💻 Hướng dẫn chạy các Kịch bản Kiểm thử (Testcases)
