@@ -67,7 +67,7 @@ cmake --build . --target install --config Debug
 ```
 
 ### 🔹 Bước 5: Chạy chương trình TinyShell
-Di chuyển vào thư mục `install` vừa được sinh ra và tận hưởng thành quả. Bạn nên nhập lệnh `help` đầu tiên để xem danh sách lệnh hỗ trợ:
+Di chuyển vào thư mục `install` vừa được sinh ra . Nhập lệnh `help` đầu tiên để xem danh sách lệnh hỗ trợ:
 ```bash
 cd install
 Operating-System-Project.exe
@@ -76,8 +76,6 @@ Operating-System-Project.exe
 ---
 
 ## 💻 Hướng dẫn chạy các Kịch bản Kiểm thử (Testcases)
-
-Khi giao diện `TinyShell>` xuất hiện, hãy thực hiện lần lượt các lệnh sau để trình bày tính năng với thầy cô:
 
 ### 1️⃣ Testcase 1: Quản lý vòng đời tiến trình ngầm (`process_test.bat`)
 Kiểm tra khả năng tạo, theo dõi thông tin chi tiết, đóng băng, giải phóng và tiêu diệt một tiến trình thực tế.
